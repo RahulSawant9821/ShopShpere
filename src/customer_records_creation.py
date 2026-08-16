@@ -20,7 +20,7 @@ for index in range(10000):
 
 
 
-with open("./data/customers.csv","w",newline="",encoding = "utf-8") as file:
+with open("../data/customers.csv","w",newline="",encoding = "utf-8") as file:
     fieldnames = customer_records[0].keys()
 
     writer = csv.DictWriter(file,fieldnames=fieldnames)
